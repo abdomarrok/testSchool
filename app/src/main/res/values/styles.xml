@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Font family: Open Sans
+Line height: 20sp
+-->
+<!-- styles.xml -->
+<resources>
+    <style name="school_mana">
+
+        <item name="android:textSize">
+            40sp
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+    <style name="the_best_sc">
+
+    <item name="android:textSize">
+        15sp
+    </item>
+
+    <item name="android:textColor">
+        #FFFFFF
+    </item>
+    </style>
+    <style name="get_started">
+
+        <item name="android:textSize">
+            27sp
+        </item>
+
+        <item name="android:textColor">
+            #DE434343
+        </item>
+
+    </style>
+
+
+</resources>
