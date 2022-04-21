@@ -4,5 +4,7 @@
     <string name="thebest">The best School </string>
     <string name="get_started">Get Started</string>
     <string name="register">Register</string>
+    <string name="login">Login</string>
     <string name="already_hav">Already have an account? Sign in</string>
+    <string name="don_t_have_">Dont have an account? Register</string>
 </resources>
