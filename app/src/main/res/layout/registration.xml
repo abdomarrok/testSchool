@@ -39,7 +39,6 @@
         android:background="@drawable/underlogo" />
 
     <TextView
-        android:id="@+id/school_mana"
         android:id="@+id/register"
         android:layout_width="316dp"
         android:layout_height="60dp"
@@ -84,7 +83,7 @@
             <TextView
                 android:id="@+id/rectangle4_email"
                 android:layout_width="match_parent"
-                android:layout_height="48"
+                android:layout_height="48dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
                 android:background="@drawable/rectangle4"
@@ -92,55 +91,55 @@
                 android:gravity="left|center"
                 android:paddingLeft="10dp"
                 android:text="email"
-                android:textSize="25" />
+                android:textSize="25sp" />
 
             <TextView
                 android:id="@+id/rectangle4_username"
                 android:layout_width="match_parent"
-                android:layout_height="48"
+                android:layout_height="48dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginTop="15"
+                android:layout_marginTop="15dp"
                 android:background="@drawable/rectangle4"
                 android:drawableLeft="@drawable/usernamevector"
                 android:gravity="left|center"
                 android:paddingLeft="10dp"
                 android:text="username"
-                android:textSize="25" />
+                android:textSize="25sp" />
 
             <TextView
                 android:id="@+id/rectangle4_password"
                 android:layout_width="match_parent"
-                android:layout_height="48"
+                android:layout_height="48dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginTop="15"
+                android:layout_marginTop="15dp"
                 android:background="@drawable/rectangle4"
                 android:drawableLeft="@drawable/passwordvector"
                 android:gravity="left|center"
                 android:paddingLeft="10dp"
                 android:text="password"
-                android:textSize="25" />
+                android:textSize="25sp" />
 
             <TextView
                 android:id="@+id/rectangle4_confirm_password"
                 android:layout_width="match_parent"
-                android:layout_height="48"
+                android:layout_height="48dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginTop="15"
+                android:layout_marginTop="15dp"
                 android:background="@drawable/rectangle4"
                 android:drawableLeft="@drawable/passwordvector"
                 android:gravity="left|center"
                 android:paddingLeft="10dp"
                 android:text="password"
-                android:textSize="25" />
+                android:textSize="25sp" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnRegister"
                 android:layout_width="283dp"
                 android:layout_height="58dp"
-                android:layout_marginTop="20"
+                android:layout_marginTop="20dp"
                 android:background="@drawable/rectangle5"
                 android:text="Register"
                 app:backgroundTint="@null" />
