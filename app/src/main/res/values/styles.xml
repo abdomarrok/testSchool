@@ -34,5 +34,11 @@
 
     </style>
 
+    <style name="dashboard"> <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#FFFFFF</item></style>
+
+    <style name="dashboardavatar"><item name="cornerFamily">rounded</item>
+        <item name="cornerSize">48%</item></style>
+
 
 </resources>

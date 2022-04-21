@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/pc/AndroidStudioProjects/testSchool/app/src/main/res/drawable/avatar_svg.xml" value="0.189" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/testSchool/app/src/main/res/drawable/homenav.xml" value="0.189" />
         <entry key="..\:/Users/pc/AndroidStudioProjects/testSchool/app/src/main/res/drawable/ic_svgviewer_output__3_.xml" value="0.1715" />
         <entry key="..\:/Users/pc/AndroidStudioProjects/testSchool/app/src/main/res/drawable/mailvector.xml" value="0.189" />
         <entry key="..\:/Users/pc/AndroidStudioProjects/testSchool/app/src/main/res/drawable/mainlogo.xml" value="0.189" />
@@ -12,6 +14,7 @@
         <entry key="..\:/Users/pc/AndroidStudioProjects/testSchool/app/src/main/res/drawable/rectangle4.xml" value="0.189" />
         <entry key="..\:/Users/pc/AndroidStudioProjects/testSchool/app/src/main/res/drawable/rectangle5.xml" value="0.189" />
         <entry key="..\:/Users/pc/AndroidStudioProjects/testSchool/app/src/main/res/drawable/rectangle_1.xml" value="0.1715" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/testSchool/app/src/main/res/drawable/usernamevector.xml" value="0.189" />
         <entry key="..\:/Users/pc/AndroidStudioProjects/testSchool/app/src/main/res/layout-w936dp/activity_login.xml" value="0.1875" />
         <entry key="..\:/Users/pc/AndroidStudioProjects/testSchool/app/src/main/res/layout/activity_dashbord.xml" value="0.25" />
         <entry key="..\:/Users/pc/AndroidStudioProjects/testSchool/app/src/main/res/layout/activity_login.xml" value="0.25" />
