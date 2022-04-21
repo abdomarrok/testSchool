@@ -18,7 +18,6 @@
         android:layout_alignParentTop="true"
         android:layout_marginLeft="87dp"
         android:layout_marginTop="127dp"
-        android:background="@drawable/undraw_soci"
         android:clipToOutline="true">
 
         <ImageView
@@ -37,7 +36,6 @@
         android:id="@+id/rectangle_1"
         android:layout_width="304.75dp"
         android:layout_height="303.88dp"
-        android:layout_marginLeft="-10"
         android:layout_marginTop="72.44dp"
         android:background="@drawable/rectangle" />
 
