@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class LoginActivity extends AppCompatActivity {
     private TextView Register;
+    private Button btnLogin;
 
 
     @Override
@@ -29,9 +30,18 @@ public class LoginActivity extends AppCompatActivity {
                startActivity(intent);
             }
         });
+        btnLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(LoginActivity.this,Dashbord.class);
+                startActivity(intent);
+            }
+        });
     }
 
     void initwidget(){
+
         Register = (TextView) findViewById(R.id.Register_txt);
+        btnLogin =(Button) findViewById(R.id.btnLogin);
     }
 }

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Intro -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/intro"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/school_color"
+    android:clipToOutline="true"
+    app:layout_anchorGravity="center|center_horizontal|center_vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/undraw_soci"
+        android:layout_width="249dp"
+        android:layout_height="249dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="87dp"
+        android:layout_marginTop="127dp"
+        android:clipToOutline="true">
+
+        <ImageView
+            android:id="@+id/group"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/mainlogo"></ImageView>
+
+    </RelativeLayout>
+
+
+    <View
+        android:id="@+id/rectangle1"
+        android:layout_width="200.22dp"
+        android:layout_height="182.95dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="-30dp"
+        android:background="@drawable/rectangle"
+        android:rotation="90" />
+    <TextView
+        android:id="@+id/school_mana"
+        android:layout_width="339dp"
+        android:layout_height="78dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="499dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_horizontal"
+        android:text="@string/dashbord"
+        android:textAppearance="@style/school_mana" />
+
+</RelativeLayout>
