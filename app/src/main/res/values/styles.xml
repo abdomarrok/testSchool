@@ -14,18 +14,17 @@
         #FFFFFF
     </item>
     </style>
+
     <style name="get_started">
-
-        <item name="android:textSize">
-            27sp
-        </item>
-
-        <item name="android:textColor">
-            #DE434343
-        </item>
-
+        <item name="android:textSize">30sp</item>
+        <item name="cornerRadius"> 25dp </item>
+        <item name="backgroundColor">#BF360C</item>
     </style>
+
     <style name="already_hav">
+        <item name="backgroundTint">
+            @color/white
+        </item>
 
         <item name="android:textSize">
             16sp

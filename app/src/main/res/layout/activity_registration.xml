@@ -80,7 +80,7 @@
             android:layout_centerInParent="true"
             android:orientation="vertical">
 
-            <EditText
+            <TextView
                 android:id="@+id/rectangle4_email"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
@@ -93,7 +93,7 @@
                 android:text="email"
                 android:textSize="25sp" />
 
-            <EditText
+            <TextView
                 android:id="@+id/rectangle4_username"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
@@ -107,7 +107,7 @@
                 android:text="username"
                 android:textSize="25sp" />
 
-            <EditText
+            <TextView
                 android:id="@+id/rectangle4_password"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
@@ -118,11 +118,10 @@
                 android:drawableLeft="@drawable/passwordvector"
                 android:gravity="left|center"
                 android:paddingLeft="10dp"
-                android:inputType="textPassword"
                 android:text="password"
                 android:textSize="25sp" />
 
-            <EditText
+            <TextView
                 android:id="@+id/rectangle4_confirm_password"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
@@ -133,11 +132,10 @@
                 android:drawableLeft="@drawable/passwordvector"
                 android:gravity="left|center"
                 android:paddingLeft="10dp"
-                android:inputType="textPassword"
                 android:text="password"
                 android:textSize="25sp" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnRegister"
                 android:layout_width="283dp"
                 android:layout_height="58dp"
@@ -147,7 +145,6 @@
                 app:backgroundTint="@null" />
 
         </LinearLayout>
-
         <TextView
             android:id="@+id/already_hav"
             android:layout_width="wrap_content"
@@ -155,9 +152,9 @@
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="14dp"
-            android:gravity="center_vertical"
             android:text="@string/already_hav"
-            android:textAppearance="@style/already_hav" />
+            android:textAppearance="@style/already_hav"
+            android:gravity="center_vertical"/>
     </RelativeLayout>
 
 
