@@ -1,16 +1,12 @@
 package com.marrok.testschool;
-
-import static androidx.constraintlayout.helper.widget.MotionEffect.TAG;
-
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
+
+import com.marrok.testschool.Models.Student;
 
 import java.util.ArrayList;
 
@@ -19,7 +15,7 @@ public class StudentActivity extends AppCompatActivity {
     private TextView total;
     private ArrayList<Student> student;
     private RecyclerView recyclerView;
-    private StudentRecAdabter adapter;
+    private StudentRecAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,19 +25,19 @@ public class StudentActivity extends AppCompatActivity {
 
         //add value to the student model
         student = new ArrayList<>();
-        for(int i=1;i<20;i++){
-            student.add(new Student(i,"said"+((Integer)i).toString()));
+        for (int i = 1; i < 20; i++) {
+            student.add(new Student(i, "said" + ((Integer) i).toString()));
         }
 
         // widget initialitation
-        recyclerView =(RecyclerView)findViewById(R.id.student_recycler_view);
-        total=(TextView) findViewById(R.id.total_value);
-        adapter= new StudentRecAdabter(this);//create adapter instance
+        recyclerView = (RecyclerView) findViewById(R.id.student_recycler_view);
+        total = (TextView) findViewById(R.id.total_value);
+        adapter = new StudentRecAdapter(this);//create adapter instance
         recyclerView.setAdapter(adapter);//set the Student model adapter to recycler view
         recyclerView.setLayoutManager(new LinearLayoutManager(this)); // chose tha way to show item
         adapter.setStudents(student);// giving the model to the adapter
         ///////////////
-        total.setText(((Integer)adapter.getItemCount()).toString());
+        total.setText(((Integer) adapter.getItemCount()).toString());
 
     }
 }

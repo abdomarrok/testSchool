@@ -1,4 +1,4 @@
-package com.marrok.testschool;
+package com.marrok.testschool.Models;
 
 public class Student{
     String fullName;
