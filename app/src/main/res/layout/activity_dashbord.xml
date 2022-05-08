@@ -1,19 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Intro -->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/intro"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="@color/school_color"
-    android:clipToOutline="true"
-    app:layout_anchorGravity="center|center_horizontal|center_vertical">
+    app:layout_anchorGravity="center|center_horizontal|center_vertical"
+    tools:context=".Dashboard">
 
     <View
         android:id="@+id/rectangle1"
         android:layout_width="141dp"
         android:layout_height="213dp"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginLeft="272dp"
@@ -69,7 +67,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginTop="290dp"
         android:background="@drawable/rectangle3">
-        <!-- Rectangle 4 -->
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -176,15 +174,17 @@
 
 
             <TextView
-                android:layout_width="135dp"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:drawableTop="@drawable/ic_baseline_home_24"
                 android:gravity="center"
                 android:text="@string/home"
                 android:textColor="@color/school_color" />
 
             <TextView
-                android:layout_width="140dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
                 android:layout_height="match_parent"
                 android:drawableTop="@drawable/ic_baseline_list_24"
                 android:gravity="center"
@@ -192,7 +192,8 @@
                 android:textColor="@color/school_color" />
 
             <TextView
-                android:layout_width="135dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
                 android:layout_height="match_parent"
                 android:drawableTop="@drawable/ic_baseline_person_outline_24"
                 android:gravity="center"

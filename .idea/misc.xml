@@ -9,6 +9,7 @@
         <entry key="..\:/Users/pc/AndroidStudioProjects/testSchool/app/src/main/res/drawable/ic_baseline_list_24.xml" value="0.189" />
         <entry key="..\:/Users/pc/AndroidStudioProjects/testSchool/app/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.189" />
         <entry key="..\:/Users/pc/AndroidStudioProjects/testSchool/app/src/main/res/drawable/ic_svgviewer_output__3_.xml" value="0.1715" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/testSchool/app/src/main/res/drawable/imgfff_background.xml" value="0.189" />
         <entry key="..\:/Users/pc/AndroidStudioProjects/testSchool/app/src/main/res/drawable/mailvector.xml" value="0.189" />
         <entry key="..\:/Users/pc/AndroidStudioProjects/testSchool/app/src/main/res/drawable/mainlogo.xml" value="0.189" />
         <entry key="..\:/Users/pc/AndroidStudioProjects/testSchool/app/src/main/res/drawable/rectangle.xml" value="0.1715" />
@@ -23,8 +24,11 @@
         <entry key="..\:/Users/pc/AndroidStudioProjects/testSchool/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/pc/AndroidStudioProjects/testSchool/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/pc/AndroidStudioProjects/testSchool/app/src/main/res/layout/activity_registration.xml" value="0.25" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/testSchool/app/src/main/res/layout/activity_student.xml" value="0.25" />
         <entry key="..\:/Users/pc/AndroidStudioProjects/testSchool/app/src/main/res/layout/login.xml" value="0.25" />
         <entry key="..\:/Users/pc/AndroidStudioProjects/testSchool/app/src/main/res/layout/registration.xml" value="0.264" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/testSchool/app/src/main/res/layout/student_item.xml" value="0.25" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/testSchool/app/src/main/res/layout/studnet_item.xml" value="0.25" />
       </map>
     </option>
   </component>

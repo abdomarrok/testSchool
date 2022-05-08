@@ -40,5 +40,17 @@
     <style name="dashboardavatar"><item name="cornerFamily">rounded</item>
         <item name="cornerSize">48%</item></style>
 
+    <style name="total_value">
+        <item name="android:textColor">?attr/colorError</item>
+        <item name="android:textSize">@dimen/total_font_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="total">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/total_font_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
 
 </resources>
