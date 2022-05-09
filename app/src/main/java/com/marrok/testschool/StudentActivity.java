@@ -4,8 +4,11 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.TextView;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.snackbar.Snackbar;
 import com.marrok.testschool.Models.Student;
 
 import java.util.ArrayList;
@@ -16,6 +19,7 @@ public class StudentActivity extends AppCompatActivity {
     private ArrayList<Student> student;
     private RecyclerView recyclerView;
     private StudentRecAdapter adapter;
+    private FloatingActionButton fab;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +36,15 @@ public class StudentActivity extends AppCompatActivity {
         // widget initialitation
         recyclerView = (RecyclerView) findViewById(R.id.student_recycler_view);
         total = (TextView) findViewById(R.id.total_value);
+        fab = findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Snackbar.make(view, "to do add student", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
+            }
+        });
+        /////////////////////
         adapter = new StudentRecAdapter(this);//create adapter instance
         recyclerView.setAdapter(adapter);//set the Student model adapter to recycler view
         recyclerView.setLayoutManager(new LinearLayoutManager(this)); // chose tha way to show item
@@ -40,4 +53,5 @@ public class StudentActivity extends AppCompatActivity {
         total.setText(((Integer) adapter.getItemCount()).toString());
 
     }
+
 }

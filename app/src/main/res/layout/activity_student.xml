@@ -67,6 +67,7 @@
         android:layout_marginTop="-30dp"
         android:background="@drawable/rectangle"
         android:rotation="90" />
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/student_recycler_view"
         android:layout_width="match_parent"
@@ -74,5 +75,20 @@
         android:layout_below="@+id/top_layout">
 
     </androidx.recyclerview.widget.RecyclerView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:backgroundTint="@color/white"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/ic_baseline_add_24"
+        android:contentDescription="@string/add" />
+
 
 </RelativeLayout>
